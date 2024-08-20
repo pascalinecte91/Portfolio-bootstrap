@@ -17,11 +17,11 @@
     <!-- Navbar -->
 
     <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg">
-        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ms-auto  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
                 <li class="nav-item">
                     <a href="#accueil" class="nav-link text-dark">Accueil</a>
@@ -43,18 +43,193 @@
     </nav>
 
     <!--  Accueil -->
-    <section id="accueil" class="container-fluid bg-dark text-center text-white d-flex flex-column justify-content-between py-5 w-100 h-75">
+
+    <section id="accueil"
+        class="container-fluid bg-dark text-center text-white d-flex flex-column justify-content-between py-5 w-100 h-75">
         <div class="row flex-grow-1">
             <div class="col-12">
-                <img src="./assets/man.svg" class="man img-fluid pb-3" alt="man">
+                <img src="./assets/woman-user.svg" class="woman img-fluid pb-3" alt="man">
             </div>
-            <h1>Salut moi c'est John</h1>
-            <p class="lead">Je suis développeur Front-End, spécialisé dans les différents Frameworks JavaScript</p>
+            <h1>Salut ! Je m'appelle Pascal'in</h1>
+            <p class="lead">"Développeuse front-end débutante, j'apprends à créer des expériences web engageantes.</p>
             <div class="col-12 text-center">
                 <a href="#about" class="btn btn-secondary btn-lg mb-5">En savoir +</a>
             </div>
         </div>
-        <p class="pt-5 mb-0">Lorem ipsum dolor sit amet.</p>
+        <p class="lead pt-5 mb-0">Motivée par la créativité et la technologie.</p>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+        <h1 class="text-center text-dark py-5">PORTFOLIO</h1>
+        <div class="container pb-5">
+            <!-- ligne 1 avec 3 cards -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/ReactTwitch.png" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/animation.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/MeteoApp.png" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ligne 2 avec 3 cards -->
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/ReactTwitch.png" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/animation.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <img src="./assets/js.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ligne 3  avec 3 cards -->
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/grid.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/bulma.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/figma-learn@home.jpg" class="card-img-top img-fluid " alt="">
+                        <div class="card-body">
+                            <h4 class="title">Figma  les maquettes</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum omnis, nemo pellat commodi iure aliquam deleniti, nam dicta.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-secondary btn-sm">Code source</a>
+                                </div>
+                                <div class="col">
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Voir le projet</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
